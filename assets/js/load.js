@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', () => loadPage('home'))
+document.addEventListener('DOMContentLoaded', () => loadPage('blog/home'))
 
 function loadPage(pageName) {
     let url = '../../pages/' + pageName + '.html';
